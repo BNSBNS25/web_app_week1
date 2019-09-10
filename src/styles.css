@@ -1,9 +1,21 @@
 #board table {
+  font-family: "Helvetica";
+  font-size: 30px;
   border: 1px solid black;
   border-collapse: collapse;
 }
 
 #board td {
   border: 1px solid black;
-  padding: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: center;
+}
+#board .player1 {
+  background-color: rgb(124, 252, 0);
+}
+
+#board .player2 {
+  background-color: rgb(250, 128, 114);
 }
